@@ -16,7 +16,7 @@ This is a simple project demonstrating how to compile a C function to WebAssembl
 1. **Compile C Function to WebAssembly**:
    - Use Emscripten to compile `functions.c` to WebAssembly:
      ```
-     emcc functions.c -o functions.wasm -s EXPORTED_FUNCTIONS="['_add']" -s EXPORTED_RUNTIME_METHODS="['ccall']"
+     emcc functions.c -o functions.wasm"
      ```
 
 2. **Access the Web Application**:
